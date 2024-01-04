@@ -1,0 +1,103 @@
+*::after,
+*::before,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  width: 70%;
+  max-width: 700px;
+  /* background-color: white; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  height: 400px;
+}
+
+.addTaskBox {
+  padding: 20px 30px;
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#addTask {
+  background: #0f2027;
+  height: 45px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#inputField {
+  width: 60%;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: medium;
+  letter-spacing: 1px;
+}
+
+.tasks {
+  background-color: white;
+  width: 80%;
+  padding: 40px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+
+}
+.task {
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: capitalize;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  padding: 10px 0;
+  font-size: medium;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.task p{
+    padding: 8px 15px;
+}
+
+.delete {
+  background-color: #0f2027;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 50px;
+  cursor: pointer;
+}
